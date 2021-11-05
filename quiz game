@@ -1,0 +1,207 @@
+# question 1
+i = 0
+math = input("""QUESTION 1:
+
+What is two squared? 
+Answer: """)
+
+
+math = int(math)
+
+if math == 4:
+    print("""
+That is correct!
+""")
+    i += 1
+
+else:
+    print ("""
+That is Incorrect, the correct answer is 4 because 2 x 2 = 4!
+""")
+
+# question 2
+overlake_question = input("""QUESTION 2:
+
+What year was The Overlake School Founded?
+a) 1833
+b) 1965
+c) 1983
+d) 1967
+Answer: """)
+
+
+if overlake_question.lower() == "d":
+    print("""
+That is correct!
+""")
+    i += 1
+
+else:
+    print ("""
+That is Incorrect, the correct answer is d) 1967. 
+""")
+
+# question 3
+the_godfather = input("""QUESTION 3:
+
+What actor took over as the godfather in the first movie? 
+Answer: """)
+
+
+if the_godfather.lower()  == "al pacino":
+    print("""
+That is correct!
+""")
+    i += 1
+
+else:
+    print ("""
+That is Incorrect, the correct answer is Al Pacino who took over for 
+his father, the original don which was played by Marlon Brando. 
+""")
+
+#question 4
+igor = input("""Question 4:
+
+What album won best rap album at the 2019 grammys? 
+Answer: """)
+
+
+if igor.lower()  == "igor":
+    print("""
+That is correct!
+""")
+    i += 1
+
+else:
+    print ("""
+That is Incorrect, the correct answer is Igor which was written, arranged, and produced 
+by Tyler, the Creator. This album was also platinum certified meaning the album sold 
+over 1,000,000 copies!
+
+""")
+
+#question 5
+steve_lacy = input("""Question 5:
+
+What artist made his hit song "Dark Red" in Garage Band on a iphone? 
+Answer: """)
+
+
+if steve_lacy.lower() == "steve lacy":
+    print("""
+That is correct!
+""")
+    i += 1
+#question 6
+melon = input("""Question 6:
+
+What did music reviewer Anthony Fantano a.k.a. The Needle Drop or "Melon" 
+give Kanye West's "My Beautiful Dark Twisted Fantasy" out of ten? 
+Answer: """)
+
+
+melon = int(melon)
+
+if melon == 6:
+    print("""
+That is correct!
+""")
+    i += 1
+
+else:
+    print ("""
+That is Incorrect, the correct answer is 6, many considered West's album
+to be the best album of the 21st century and the best album of the 2010s.
+Anthony Fantano's review was incredibly controversial and disappointing to
+many.
+""")
+#question 7
+matteo_color = input("""Question 7:
+
+What is Matteo Pirkka Horvat's favorite color? 
+Answer: """)
+
+if matteo_color == "dark green":
+    print("""
+That is correct!
+""")
+    i += 1
+
+else:
+    print ("""
+That is incorrect, Matteo's favorite color is dark green because of the
+richness of the color.
+""")
+#question 8
+call_me_if_you_get_lost = input("""Question 8:
+
+What rap groups mixtapes were a huge influence on Tyler, The Creator's
+recent album "Call Me if You Get Lost" 
+a) Wu-Tang Clan
+b) Gangsta Grillz
+c) Public Enemy
+d) A Tribe Called Quest
+Answer: 4""")
+
+if call_me_if_you_get_lost.lower() == "b":
+    print("""
+That is correct!
+""")
+    i += 1
+#question 9
+ye_name = input("""Question 9:
+
+What did Kanye West legally change his name to?
+a) Ye
+b) Yeezus
+c) Yeezy
+d) The Louis Vuitton Don
+Answer: """)
+
+if ye_name.lower() == "a":
+    print("""
+That is correct!
+""")
+    i += 1
+#question 10
+cudi_doc = input("""Question 10:
+
+What documentary came out on netflix November 5th 2021?
+a) Kanye's documentary
+b) Kid Cudi's documentary
+c) Lil Peep's documentary
+d) Travis Scott's documentary
+Answer: """)
+
+if cudi_doc.lower() == "b":
+    print("""
+That is correct!
+""")
+    i += 1
+else:
+    print ("""
+That is incorrect, the correct answer is b Gangsta Grillz. 
+""")
+if i == 0:
+    print("Your score was 0% ")
+elif i == 1:
+    print("Your score was 10% ")
+elif i == 2:
+    print("your score was 20% ")
+elif i == 3:
+    print("Your score was 30% ")
+elif i == 4:
+    print ("Your score was 40% ")
+elif i == 5:
+    print ("Your score was 50%")
+elif i == 6:
+    print ("Your score was 60%")
+elif i == 7:
+    print ("Your score was 70%")
+elif i == 8:
+    print ("Your score was 80%")
+elif i == 9:
+    print ("Your score was 90%")
+elif i == 10:
+    print ("Your score was 100%")
