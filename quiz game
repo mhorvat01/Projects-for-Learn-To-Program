@@ -142,13 +142,17 @@ a) Wu-Tang Clan
 b) Gangsta Grillz
 c) Public Enemy
 d) A Tribe Called Quest
-Answer: 4""")
+Answer: """)
 
 if call_me_if_you_get_lost.lower() == "b":
     print("""
 That is correct!
 """)
     i += 1
+else:
+    print ("""
+That is incorrect, the correct answer is b Gangsta Grillz. 
+""")
 #question 9
 ye_name = input("""Question 9:
 
@@ -181,7 +185,7 @@ That is correct!
     i += 1
 else:
     print ("""
-That is incorrect, the correct answer is b Gangsta Grillz. 
+That is incorrect, the correct answer is b Cid Cudi's Documentary. 
 """)
 if i == 0:
     print("Your score was 0% ")
