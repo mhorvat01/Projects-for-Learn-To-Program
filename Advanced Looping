@@ -24,11 +24,12 @@ for row in range(10):
         print (end=" *")
 
 """ Problem 4"""
-
-for row in range(10):
-    print(" ")
-    for column in range(4):
-        print (end=" *")
+column = 0
+while column < 10:
+    print()
+    column += 1
+    for i in range(5):
+        print(end=" *")
 
 """ Problem 5"""
 
