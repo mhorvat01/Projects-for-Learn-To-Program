@@ -50,3 +50,9 @@ while i <= 10:
     print()
 
 """ problem 7"""
+for row in range(-1, 9):
+    print()
+    row+= 1
+    for column in range(10):
+        number = str(row)
+        print(" ", end= number)
