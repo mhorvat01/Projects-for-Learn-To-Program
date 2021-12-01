@@ -1,0 +1,51 @@
+""" Problem 1"""
+
+for i in range(10):
+    print ("*", end=" ")
+print()
+
+""" Problem 2"""
+
+for i in range(10):
+    print ("*", end=" ")
+print()
+for i in range(5):
+    print ("*", end=" ")
+print()
+for i in range(20):
+    print ("*", end=" ")
+
+
+""" Problem 3"""
+
+for row in range(10):
+    print(" ")
+    for column in range(10):
+        print (end=" *")
+
+""" Problem 4"""
+
+for row in range(10):
+    print(" ")
+    for column in range(4):
+        print (end=" *")
+
+""" Problem 5"""
+
+for row in range(5):
+    print(" ")
+    for column in range(20):
+        print (end=" *")
+print()
+
+""" Problem 6"""
+i = 1
+while i <= 10:
+    j = 1
+    while j <= 9:
+        print(j, end='')
+        j = j + 1
+    i = i + 1
+    print()
+
+""" problem 7"""
